@@ -150,3 +150,87 @@ p a {
     text-decoration: none;
     color: white;
 }
+
+@media (min-width: 550px) {
+    .wrapper {
+        max-width: 767px;
+        width: 97%;
+    }
+
+    .div.row {
+        padding: 0 2em;
+    }
+
+    .heading {
+        background: url(../img/header-850.jpg) no-repeat;
+        height: 130px;
+    }
+
+    nav li,
+    nav li:nth-child(even),
+    nav li:nth-child(odd) {
+        display: inline-block;
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+
+    nav a {
+        padding: 0 1em 0 1em;
+    }
+
+    [class *= "col-"] {
+        margin-left: 4%;
+        margin-right: 0;
+    }
+
+    .col-1-4 {
+        flex: 0 0 44%
+    }
+
+    .col-4 {
+        flex: 0 0 92%
+    }
+}
+
+@media (min-width: 850px) {
+    .wrapper {
+        max-width: 767px;
+        width: 97%;
+    }
+
+    .div.row {
+        padding: 0 2em;
+    }
+
+    .heading {
+        background: url(../img/header-850.jpg) no-repeat;
+        height: 130px;
+    }
+
+    nav li,
+    nav li:nth-child(even),
+    nav li:nth-child(odd) {
+        display: inline-block;
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+
+    nav a {
+        padding: 0 1em 0 1em;
+    }
+
+    [class *= "col-"] {
+        margin-left: 4%;
+        margin-right: 0;
+    }
+
+    .col-1-4 {
+        flex: 0 0 20%
+    }
+
+    .col-4 {
+        flex: 0 0 92%
+    }
+}
