@@ -195,7 +195,7 @@ p a {
 
 @media (min-width: 850px) {
     .wrapper {
-        max-width: 767px;
+        max-width: 1200px;
         width: 97%;
     }
 
@@ -204,8 +204,8 @@ p a {
     }
 
     .heading {
-        background: url(../img/header-850.jpg) no-repeat;
-        height: 130px;
+        background: url(../img/header-1200.jpg) no-repeat;
+        height: 183px;
     }
 
     nav li,
